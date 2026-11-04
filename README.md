@@ -10,7 +10,7 @@
 * **Autenticación por Roles:** 
   * **Encargado (Administrador):** Gestión total del inventario, préstamos y devoluciones.
   * **Estudiante:** Consulta de equipos disponibles en el laboratorio.
-* **Persistencia en Archivos de Texto:** Almacenamiento local utilizando archivos planos (`equipos.txt`, `estudiantes.txt`, `encargados.txt`)[cite: 44, 46, 48].
+* **Persistencia en Archivos de Texto:** Almacenamiento local utilizando archivos planos (`equipos.txt`, `estudiantes.txt`, `encargados.txt`).
 
 ---
 
