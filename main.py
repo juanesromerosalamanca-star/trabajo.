@@ -4,9 +4,7 @@ from Administrador import Administrador
 from Estudiante import Estudiante
 from equipo import Equipo
 
-# ---------------------------------------------------------
-# CLASE DE GESTIÓN DE DATOS Y ARCHIVOS
-# ---------------------------------------------------------
+
 class SistemaInventario:
     def __init__(self):
         self.equipos = []
@@ -15,7 +13,7 @@ class SistemaInventario:
         self.cargar_datos()
 
     def cargar_datos(self):
-        # Cargar Equipos
+    
         try:
             with open("equipos.txt", "r", encoding="utf-8") as f:
                 while True:
@@ -48,7 +46,7 @@ class SistemaInventario:
         except FileNotFoundError:
             pass
 
-        # Cargar Encargados
+        
         try:
             with open("encargados.txt", "r", encoding="utf-8") as f:
                 while True:
@@ -68,9 +66,7 @@ class SistemaInventario:
             for eq in self.equipos:
                 f.write(f"{eq.id}\n{eq.nombre}\n{eq.categoria}\n{eq.cantidad}\n{eq.estado}\n{eq.prestados}\n")
 
-# ---------------------------------------------------------
-# INTERFAZ GRÁFICA PRINCIPAL (GUI)
-# ---------------------------------------------------------
+
 class SistemaInventarioApp:
     def __init__(self, root):
         self.root = root
@@ -155,13 +151,12 @@ class SistemaInventarioApp:
     def panel_encargado(self):
         self.limpiar_ventana()
         
-        # Barra superior
+        
         top_frame = tk.Frame(self.root, bg="#142840", height=40)
         top_frame.pack(fill="x", side="top")
         tk.Label(top_frame, text=f"Panel Encargado: {self.usuario_actual.cuenta}", bg="#142840", fg="white", font=("Arial", 11, "bold")).pack(side="left", padx=10, pady=5)
         tk.Button(top_frame, text="Cerrar Sesión", command=self.mostrar_menu_principal, bg="#d32f2f", fg="white").pack(side="right", padx=10, pady=5)
 
-        # Contenido principal con Tabla de inventario
         main_frame = tk.Frame(self.root, padx=10, pady=10)
         main_frame.pack(fill="both", expand=True)
 
@@ -177,7 +172,7 @@ class SistemaInventarioApp:
         self.tree.pack(fill="both", expand=True, pady=5)
         self.actualizar_tabla()
 
-        # Botones de acción del encargado
+      
         btn_frame = tk.Frame(main_frame)
         btn_frame.pack(fill="x", pady=10)
 
