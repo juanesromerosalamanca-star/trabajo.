@@ -5,7 +5,7 @@
 ---
 
 ##  Características principales
-* **Control de Inventario:** Gestión de equipos de laboratorio (multímetros, osciloscopios, fuentes de poder, kits, etc.) con cálculo automático de unidades disponibles[cite: 45, 46].
+* **Control de Inventario:** Gestión de equipos de laboratorio (multímetros, osciloscopios, fuentes de poder, kits, etc.) con cálculo automático de unidades disponibles
 * **Control de Préstamos y Devoluciones:** Permite registrar salidas y entradas de unidades actualizando el stock en tiempo real[cite: 43, 45].
 * **Autenticación por Roles:** 
   * **Encargado (Administrador):** Gestión total del inventario, préstamos y devoluciones.
