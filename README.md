@@ -4,7 +4,7 @@ Sistema de gestión y control de inventario desarrollado en **Python** utilizand
 
 ---
 
-## 🚀 Características principales
+##  Características principales
 * **Control de Inventario:** Gestión de equipos de laboratorio (multímetros, osciloscopios, fuentes de poder, kits, etc.) con cálculo automático de unidades disponibles[cite: 45, 46].
 * **Control de Préstamos y Devoluciones:** Permite registrar salidas y entradas de unidades actualizando el stock en tiempo real[cite: 43, 45].
 * **Autenticación por Roles:** 
@@ -14,7 +14,7 @@ Sistema de gestión y control de inventario desarrollado en **Python** utilizand
 
 ---
 
-## 📂 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```text
 ├── main.py               # Archivo principal con la Interfaz Gráfica (GUI) y lógica de ejecución
