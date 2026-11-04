@@ -1,6 +1,6 @@
 # Sistema de Inventario y Préstamos del Laboratorio
 
-Sistema de gestión y control de inventario desarrollado en **Python** utilizando **Programación Orientada a Objetos (POO)** y una interfaz gráfica de usuario (**GUI**) construida con **Tkinter**.
+
 
 ---
 
